@@ -26,6 +26,16 @@ export default function Home() {
               Математикийн тоглоом
             </button>
           </Link>
+          <Link href="/nature" className="w-full">
+            <button className="w-full flex items-center justify-center gap-3 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-4 rounded-xl font-semibold text-lg transition-colors shadow-md">
+              Хог ялгадаг тоглоом
+            </button>
+          </Link>
+          <Link href="/color" className="w-full">
+            <button className="w-full flex items-center justify-center gap-3 bg-pink-500 hover:bg-pink-600 text-white px-6 py-4 rounded-xl font-semibold text-lg transition-colors shadow-md">
+              Өнгөөр буддаг тоглоом
+            </button>
+          </Link>
         </div>
         <p className="mt-8 text-center text-gray-600">
           Тоглоомоо сонгоод эхлүүлнэ үү!
